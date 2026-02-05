@@ -68,4 +68,4 @@ ep.write('Cupiditate ad voluptatem nisi.\n\n\n\n')
 dev.reset()
 if needs_reattach:
     dev.attach_kernel_driver(0)
-    print "Reattached USB device to kernel driver"
+    print("Reattached USB device to kernel driver")
