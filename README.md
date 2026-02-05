@@ -33,7 +33,7 @@ easy to do manually:
 permission error when trying to print.
 
 ```
-    sudo addgroup <myusername> lp
+    sudo usermod -a -G lp <myusername>
 ```
 
 2. Add a udev rule to allow all users to use a USB device that matches this vendor ID and product ID.
