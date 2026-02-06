@@ -56,8 +56,6 @@ sudo udevadm trigger
 
 ## Python and usb setup
 
-Install pyusb to your Python (suggest using virtualenv):
-
 You will need to install Python3 for a modern version of Python (unless already installed). 
 pip will complain about installing pyusb in an externally managed system; you can force it to do it.
 
