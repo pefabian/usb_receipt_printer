@@ -54,7 +54,7 @@ sudo udevadm control --reload-rules
 sudo udevadm trigger
 ```
 
-## Python setup
+## Python and usb setup
 
 Install pyusb to your Python (suggest using virtualenv):
 
@@ -66,8 +66,6 @@ pip install pyusb --break-system-packages
 ```
 
 Do not worry about breaking system packages. It will want to set up a virtual environment, which makes sense in some cases, but this is just installing functionality to a single-purpose server.
-
-## libusb setup
 
 Lastly, install libusb 1.0 for usb device support.
 
